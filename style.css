@@ -1,0 +1,18 @@
+*{
+  margin: 20px
+}
+.spiner{
+  background-color: greenyellow;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border:25px solid white;
+  border-top: 20px solid red;
+  animation: ani 2.5s linear infinite;
+}
+@keyframes ani{
+  to{
+    transform: rotate(360deg);
+    
+  }
+}
